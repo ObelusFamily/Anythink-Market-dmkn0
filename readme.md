@@ -10,4 +10,18 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
+Install ([Docker](https://docs.docker.com/get-docker/)) on your machine.You can verify Docker is ready by running the following commands in the terminal
+
+```
+docker -v
+
+docker-compose -v
+```
+
+To load the backend to the frontend, run this from the project root directory.
+
+```
+docker-compose up
+```
+
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
